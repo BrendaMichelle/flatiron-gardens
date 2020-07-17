@@ -25,9 +25,9 @@ For this review, we’ll only be working on the Garden model. We’ll be splitti
     - Each garden name should be a link to that garden’s show page
     - There should be a link to the new garden form
 2. Garden Show Page
-    - TThere should be a show page for each garden. It should display the name, number_of_employees, length, and width
-    - TThere should be a link to the index page
-    - TThere should be a link to the edit form
+    - There should be a show page for each garden. It should display the name, number_of_employees, length, and width
+    - There should be a link to the index page
+    - There should be a link to the edit form
    - There should be a button to delete the garden
 3. New Garden Form
     - Add controller actions and views necessary to show a form to create a new garden. The form should have:
@@ -36,6 +36,6 @@ For this review, we’ll only be working on the Garden model. We’ll be splitti
     - After submitting, the user should be redirected to the new garden’s show page
 4. Edit Garden Form
     - Add controller actions and views necessary to show a form to edit a new garden. The form should have:
-        -An input for the name, number_of_employees, length, and width
-        -A button to save the edits
+        - An input for the name, number_of_employees, length, and width
+        - A button to save the edits
     - After submitting, the user should be redirected to the edited garden’s show page
