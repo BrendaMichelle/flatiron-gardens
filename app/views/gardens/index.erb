@@ -1,10 +1,11 @@
 <h1>These are all of our gardens!</h1>
-
+<hr>
+<ul>
 <%  @gardens.each do |garden| %>
-    <%= link_to garden.name, "/gardens/#{garden.id}" %>
+    <li><%= link_to garden.name, "/gardens/#{garden.id}" %></li>
     <br>
 <% end %>
+</ul>
 <br>
 <hr>
-<br>
-<%= link_to "Create a Garden", '/gardens/new' %>
+☞ <%= link_to "Create a New Garden", '/gardens/new' %>

@@ -1,12 +1,16 @@
 <h1><%= @garden.name %></h1>
-<%= @garden.number_of_employees %>
-<br>
-<%= @garden.length %>
-<br>
-<%= @garden.width %>
 <hr>
-<%= link_to 'Index Page', '/gardens' %>
+Employee Count: <%= @garden.number_of_employees %>
 <br>
-<%= link_to 'Edit Page', "/gardens/#{@garden.id}/edit" %>
+Length: <%= @garden.length %>
 <br>
-<%= button_to "Delete", "/gardens/#{@garden.id}", method: :delete %>
+Width: <%= @garden.width %>
+<hr>
+☞
+<%= link_to 'View All Gardens', '/gardens' %>
+<br>
+☞
+<%= link_to 'Edit This Garden', "/gardens/#{@garden.id}/edit" %>
+<br>
+<br>
+<%= button_to "Delete This Garden", "/gardens/#{@garden.id}", method: :delete %>
