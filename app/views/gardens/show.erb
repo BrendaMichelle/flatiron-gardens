@@ -1,0 +1,12 @@
+<h1><%= @garden.name %></h1>
+<%= @garden.number_of_employees %>
+<br>
+<%= @garden.length %>
+<br>
+<%= @garden.width %>
+<hr>
+<%= link_to 'Index Page', '/gardens' %>
+<br>
+<%= link_to 'Edit Page', "/gardens/#{@garden.id}/edit" %>
+<br>
+<%= button_to "Delete", "/gardens/#{@garden.id}", method: :delete %>

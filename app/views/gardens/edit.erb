@@ -1,0 +1,17 @@
+<h1>Edit <%= @garden.name %></h1>
+
+<%= form_with model: @garden do |f|%>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <br>
+    <%= f.label :number_of_employees %>
+    <%= f.number_field :number_of_employees %>
+    <br>
+    <%= f.label :width %>
+    <%= f.number_field :width %>
+    <br>
+    <%= f.label :length %>
+    <%= f.number_field :length %>
+    <br>
+    <%= f.submit "Edit Garden" %>
+<% end %>
